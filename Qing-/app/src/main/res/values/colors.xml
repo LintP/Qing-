@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffe0</color>
+    <color name="colorAccent">#FFEC8B</color>
+    <color name="gnoumal">#c0c0c0</color>
+    <color name="guse">#000000</color>
+    <color name="point">#F2F2F2F2</color>
+    <color name="clue">#EEDC82</color>
+    <color name="startbtn">#ffffff</color>
+    <color name="startbtnline">#000000</color>
+    <color name="color_gray">#c0cfff</color>
+    <color name="color_white">#ffffff</color>
+</resources>

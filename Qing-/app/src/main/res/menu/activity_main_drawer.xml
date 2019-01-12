@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/self"
+            android:icon="@mipmap/self"
+            android:title="个人中心" />
+        <item
+            android:id="@+id/find"
+            android:icon="@mipmap/find"
+            android:title="我找到的" />
+
+        <item
+            android:id="@+id/lose"
+            android:icon="@mipmap/lose"
+            android:title="我丢失的" />
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/help"
+            android:icon="@mipmap/help"
+            android:title="帮助" />
+
+        <item
+            android:id="@+id/info"
+            android:icon="@mipmap/info"
+            android:title="版本" />
+
+        <item
+            android:id="@+id/by_home"
+            android:icon="@mipmap/web"
+            android:title="Lint个人官网" />
+    </group>
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/exit"
+            android:icon="@mipmap/exit"
+            android:title="退出登陆" />
+    </group>
+
+</menu>

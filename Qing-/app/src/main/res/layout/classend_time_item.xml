@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="10dp">
+
+
+    <TextView
+        android:id="@+id/classendtime_uid_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/classendtime_class_tx"
+        android:layout_marginTop="12dp"
+        android:layout_weight="1"
+        android:text="F0000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/classendtime_uname_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/classendtime_time_tx"
+        android:layout_alignTop="@+id/classendtime_uid_tx"
+        android:layout_weight="1"
+        android:text="湖南工学院"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/classendtime_name_tx"
+        android:layout_width="213dp"
+        android:layout_height="65dp"
+        android:layout_alignStart="@+id/classendtime_uid_tx"
+        android:layout_below="@+id/classendtime_uid_tx"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Python"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/classendtime_class_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/classendtime_name_tx"
+        android:layout_marginStart="14dp"
+        android:layout_weight="1"
+        android:text="计科1601"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/classendtime_count_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/classendtime_name_tx"
+        android:layout_toEndOf="@+id/classendtime_class_tx"
+        android:layout_weight="1"
+        android:paddingLeft="2dp"
+        android:text="30人"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/classendtime_data_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/classendtime_uid_tx"
+        android:layout_marginEnd="12dp"
+        android:layout_weight="1"
+        android:text="2019-01-14"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/classendtime_time_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/classendtime_name_tx"
+        android:layout_alignEnd="@+id/classendtime_data_tx"
+        android:layout_weight="1"
+        android:text="9：00~11：00"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/classendtime_addr_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/classendtime_uname_tx"
+        android:layout_below="@+id/classendtime_name_tx"
+        android:text="社科楼社2518（实验室）"
+        android:textSize="18dp" />
+
+</RelativeLayout>
